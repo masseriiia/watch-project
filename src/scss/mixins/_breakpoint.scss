@@ -29,3 +29,15 @@
     @content;
   }
 }
+
+@mixin middle-mobile {
+  @media (max-width: (425px)) {
+    @content;
+  }
+}
+
+@mixin small-mobile {
+  @media (max-width: (325px)) {
+    @content;
+  }
+}

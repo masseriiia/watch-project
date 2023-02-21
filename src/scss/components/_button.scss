@@ -1,4 +1,7 @@
 .button__hero {
+
+
+
   &-black {
     padding: 27px 74px;
     font-weight: 300;
@@ -6,6 +9,16 @@
     line-height: 29px;
     color: #FFFFFF;
     background-color: #000000;
+
+    @include mobile {
+      padding: 15px 44px;
+      font-size: 24px;
+    }
+
+    @include middle-mobile {
+      padding: 10px 34px;
+      font-size: 24px;
+    }
   }
 
   &-white {
@@ -16,5 +29,16 @@
     line-height: 29px;
     color: #000000;
     background-color: #ffffff;
+
+    @include mobile {
+      padding: 15px 44px;
+      font-size: 24px;
+    }
+
+    @include middle-mobile {
+      padding: 10px 34px;
+      font-size: 24px;
+    }
   }
+
 }
