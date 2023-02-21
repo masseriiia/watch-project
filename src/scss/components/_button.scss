@@ -1,0 +1,20 @@
+.button__hero {
+  &-black {
+    padding: 27px 74px;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 29px;
+    color: #FFFFFF;
+    background-color: #000000;
+  }
+
+  &-white {
+    margin-left: -4px;
+    padding: 27px 31px;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 29px;
+    color: #000000;
+    background-color: #ffffff;
+  }
+}
